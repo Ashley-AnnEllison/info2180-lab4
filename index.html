@@ -1,8 +1,23 @@
 <!DOCTYPE html>
 <html>
+    <link rel="stylesheet" href="styles.css">
     <script src="app.js"></script>
     <body>
-        <h1> Avengers Character Search</h1>
-        <button id="btn" type="button"> Search</button>
+        <header>
+            <div class="headclass">
+                <h1> AVENGERS CHARACTER SEARCH</h1>
+            </div>
+        </header>
+        <main>
+            <form id="form" action="/" method="GET">
+                <div class = "superheroe-form">
+                    <label>Search by Full Name or Alias</label>
+                    <input type="text" id="name" name="name" placeholder="e.g. Wanda Maximoff or Scarlett Witch">
+                </div>
+                <button id="btn" type="submit"> Search</button>
+            </form>
+            <div id = "result">RESULT</div>
+            <hr>
+        </main>
     </body>
 </html>

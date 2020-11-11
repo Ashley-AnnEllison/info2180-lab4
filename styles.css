@@ -1,0 +1,62 @@
+body {
+    margin-top: 0;
+    background-color: rgb(212, 214, 218);
+}
+
+header {
+    background-color: rgb(39, 126, 207);
+    text-align: center;
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+main {
+    margin-left: 15%;
+}
+
+input {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 2px 0px 8px 0px rgb(159, 161, 161);
+    transition: 0.3s;
+}
+
+label {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+button {
+    color: white;
+    background-color: rgb(209, 12, 12);
+    display: block;
+    padding: 9px 20px;
+    font-size: 18px;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+hr {
+    margin-right: 35%;
+}
+
+#result {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
